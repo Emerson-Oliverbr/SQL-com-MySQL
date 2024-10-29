@@ -1,0 +1,1 @@
+SHOW VARIABLES LIKE 'DATADIR'; // Mostra local do diretório de dados 
