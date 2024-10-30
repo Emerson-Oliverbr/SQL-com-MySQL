@@ -1,4 +1,4 @@
-# Modelagem de Banco de Dados: Projeto [Nome do Seu Projeto]
+# Modelagem de Banco de Dados: [PROJETO]
 
 ## Introdução
 Este repositório contém os scripts SQL utilizados para criar e estruturar o banco de dados do projeto [Projeto]. O foco inicial está na tabela "Cliente", que serve como base para armazenar informações sobre os clientes do sistema.
