@@ -18,12 +18,12 @@ USE PROJETO;
 ## Criando a Tabela Cliente
 
 CREATE TABLE CLIENTE (
-    NOME VARCHAR(30),
-    SEXO CHAR (1),
-    EMAIL VARCHAR(30),
-    CPF INT(11),
-    TELEFONE VARCHAR(30),
-    ENDERECO VARCHAR(100)
+    id_cliente INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    cpf CHAR(11) UNIQUE,
+    email VARCHAR(100),
+    telefone VARCHAR(20),
+    endereco VARCHAR(255)
 );
 
 ## Consultando a Estrutura da Tabela
