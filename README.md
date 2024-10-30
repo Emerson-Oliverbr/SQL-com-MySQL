@@ -1,7 +1,7 @@
 # Modelagem de Banco de Dados: [PROJETO]
 
 ## Introdução
-Este repositório contém os scripts SQL utilizados para criar e estruturar o banco de dados do projeto [Projeto]. O foco inicial está na tabela "Cliente", que serve como base para armazenar informações sobre os clientes do sistema.
+Este repositório contém os scripts SQL utilizados para criar e estruturar o banco de dados do projeto [PROJETO]. O foco inicial está na tabela "Cliente", que serve como base para armazenar informações sobre os clientes do sistema.
 
 ## Conceitos Básicos
 * **Entidade:** Representa um objeto do mundo real sobre o qual desejamos armazenar dados (ex: Cliente, Produto, Pedido).
@@ -11,13 +11,13 @@ Este repositório contém os scripts SQL utilizados para criar e estruturar o ba
 
 ## Scripts SQL
 ### Criando o Banco de Dados
-
-CREATE DATABASE PROJETO;
-USE PROJETO;
+```sql
+CREATE DATABASE nome_do_seu_projeto;
+USE nome_do_seu_projeto;
 
 ## Criando a Tabela Cliente
 
-CREATE TABLE CLIENTE (
+CREATE TABLE Cliente (
     id_cliente INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     cpf CHAR(11) UNIQUE,
@@ -28,7 +28,7 @@ CREATE TABLE CLIENTE (
 
 ## Consultando a Estrutura da Tabela
 
-DESC CLIENTE;
+DESC Cliente;
 
 
 
